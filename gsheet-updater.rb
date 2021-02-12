@@ -3,11 +3,11 @@ require 'formula'
 class GsheetUpdater < Formula
   desc 'gsheet-updater'
   homepage 'https://github.com/gogolok/gsheet-updater'
-  version 'v1.1.0'
+  version 'v1.2.0'
 
   if OS.mac?
-    url 'https://github.com/gogolok/gsheet-updater/releases/download/v1.1.0/gsheet-updater-macos'
-    sha256 'd90b6970854f7a970cb2a44ccc016bf9def8e5bc2470a63998c73e23f4dcf2f8'
+    url 'https://github.com/gogolok/gsheet-updater/releases/download/v1.2.0/gsheet-updater-macos'
+    sha256 '9c61714dc20af37ee3529f836ec6c54bbf5b9d401e13aefda49d17d6872a3e64'
   end
 
   depends_on :arch => :x86_64
